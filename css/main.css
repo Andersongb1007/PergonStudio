@@ -39,6 +39,7 @@ p {
 
 .btn-planes:hover {
   background-color: #2563eb;
+  box-shadow: 0px 0px 45px rgba(37, 100, 235, 0.5);
 }
 
 .btn-demo {
@@ -52,6 +53,7 @@ p {
 
 .btn-demo:hover {
   background-color: #2563eb;
+  box-shadow: 0px 0px 45px rgba(37, 100, 235, 0.5);
 }
 
 .btn-img {
@@ -65,4 +67,158 @@ p {
 
 .btn-img:hover {
   background-color: #1055eb;
+  box-shadow: 0px 0px 45px rgba(37, 100, 235, 0.5);
+}
+
+/* Data */
+
+.section {
+  padding: 2rem 0 4rem;
+}
+
+.section__title {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.container__contact {
+  max-width: 768;
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+/* Contact me */
+
+.contact__container {
+  row-gap: 3rem;
+  grid-template-columns: 500px 1fr;
+  margin-top: 4rem;
+}
+
+.contact__information {
+  display: flex;
+  margin-bottom: 2rem;
+  margin-left: 5rem;
+}
+
+.contact__icon {
+  font-size: 2rem;
+  color: #ffffff;
+  margin-right: 0.75rem;
+}
+
+.contact__title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #e9f1ff;
+}
+
+.contact__subtitle {
+  font-size: 1rem;
+  color: #dbdddf;
+}
+
+.contact__inputs {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.contact__content {
+  /* background-color: #0099ff; */
+  background: linear-gradient(90deg, #2dd4bf  0%, #06b6d4 100%);
+  /* border: 1px; */
+  border-radius: 0.5rem;
+  padding: 1rem 1.25rem .5rem;
+}
+
+.contact__label {
+  font-size:  1rem;
+  color: #ffffff;
+}
+
+.contact__input {
+  width: 100%;
+  /* background-color: #0099ff; */
+  background: linear-gradient(90deg, #2dd4bf  0%, #06b6d4 100%);
+  color: #fff;
+  /* font-family: var(--body-font); */
+  font-size:  0.938rem;
+  border: none;
+  outline: none;
+  padding: 0.25rem 0.5rem 0.5rem 0;
+}
+.contact__submit {
+  display: inline-block;
+  background-color: #0ea5e9;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  /* font-weight: blod; */
+}
+
+.contact__submit:hover {
+  background-color: #1055eb;
+  box-shadow: 0px 0px 45px rgba(37, 100, 235, 0.5);
+  cursor: pointer;
+}
+
+/* footer */
+
+.footer {
+  padding-top: 3rem;
+}
+
+.footer__container {
+  row-gap: 3.5rem;
+  grid-template-columns: repeat(3, 1fr);
+  margin-left: 5rem;
+  text-align: center;
+}
+
+.footer__bg {
+  background-color: var(--first-color-second);
+  padding: 2rem 0 3rem;
+}
+
+
+.footer__logo {
+  margin: auto;
+  width: 100px;
+  height: 60px;
+}
+
+.footer__links {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+}
+
+/* .footer__link:hover {
+  color: var(--first-color-lighter);
+} */
+
+.footer__social {
+  font-size: 1rem;
+  margin-right: 1.25rem;
+  text-align: center;
+}
+
+.footer__copy {
+  font-size: 1.25rem;
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 2.5rem;
+}
+
+.footer__title,
+.footer__subtitle,
+.footer__link,
+.footer__social,
+.footer__copy {
+  color: #fff;
 }
