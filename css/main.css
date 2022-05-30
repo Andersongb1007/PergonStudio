@@ -289,6 +289,10 @@ p {
   }
   .footer__container {
     grid-template-columns: repeat(1, 1fr);
-    margin-bottom: 2rem;
+    margin: 0 0 2rem 0;
+  }
+
+  .footer__links {
+    margin: 0;
   }
 }
