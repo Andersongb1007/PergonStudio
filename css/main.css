@@ -24,7 +24,7 @@ p {
   transition: all 0.5s;
 }
 .planes:hover {
-  border: solid 1px #0ea5e9;
+  outline: 1px solid #0ea5e9;
 }
 .planes-color {
   color: #00b7ff;
@@ -138,7 +138,7 @@ p {
 }
 
 .contact__label {
-  font-size:  1rem;
+  font-size:  .90rem;
   color: #363636;
 }
 
