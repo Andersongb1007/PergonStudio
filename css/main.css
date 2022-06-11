@@ -228,7 +228,9 @@ p {
   color: #fff;
 }
 
-.animate__animated.animate__fadeIn {
+.animate__animated.animate__fadeIn,
+.animate__animated.animate__slideInRight,
+.animate__animated.animate__slideInLeft{
   --animate-duration: 2s;
 }
 
