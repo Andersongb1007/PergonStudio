@@ -208,7 +208,6 @@ p {
 
 .footer__social {
   font-size: 2.25rem;
-  margin-right: 1.25rem;
   text-align: center;
 }
 
@@ -228,9 +227,7 @@ p {
   color: #fff;
 }
 
-.animate__animated.animate__fadeIn,
-.animate__animated.animate__slideInRight,
-.animate__animated.animate__slideInLeft{
+.animate__animated.animate__fadeIn{
   --animate-duration: 2s;
 }
 
